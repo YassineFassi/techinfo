@@ -42,9 +42,10 @@ include "header.php";
           <label for="panne">Décrivez la panne</label> <textarea id="panne" class="form-control" name="panne-client"></textarea>
         </div>
         <div class="button">
-          <button type="submit">Envoyez votre Devis</button>
+          <button type="submit">Envoyez</button>
         </div>
     </form>
+  
 
 <hr>
 <a href="index.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Retour</a>
