@@ -12,7 +12,7 @@
     <title>Réparations</title>
 </head>
 <body>
-<header> 
+<header> </header>
 <h1>Devis pour Réparations</h1><hr>
 
 <div>Afin de vous fournir les devis les plus justes, soyez le plus précis possible </div><br>
