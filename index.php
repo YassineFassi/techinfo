@@ -26,10 +26,10 @@
         <a class="nav-link" href="reparations.php">Réparations</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contact.php">Contact</a>
+        <a class="nav-link" href="contact.php">Montage PC</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="presentation.php" tabindex="-1" aria-disabled="true">Qui sommes-nous ?</a>
+        <a class="nav-link disabled" href="presentation.php" tabindex="-1" aria-disabled="true">Vente de Produits</a>
       </li>
     </ul>
   </div>
