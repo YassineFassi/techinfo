@@ -10,13 +10,11 @@
     <title>TechInfo - Acceuil</title>
 </head>
 <header>
-
-<php
+<?php
 include "header.php";
 ?>
 </header>
-		</header>
- 
+        
 <body>
     <h1>Bienvenue chez TechInfo</h1>
 

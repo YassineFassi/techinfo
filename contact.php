@@ -9,6 +9,11 @@
     <title>Contact</title>
 </head>
 <body>
+<header>
+<?php
+include "header.php";
+?>
+</header>
 <form>
   <div class="form-row">
   <div class="form-group col-md-4">
@@ -44,5 +49,11 @@
 
 <a href="index.php" class="btn btn-secondary btn-lg active">Retour à la page d'acceuil</a>
 </form>
+
+<php
+include "footer.php" ;
+?>
+
+</footer>
 </body>
 </html>
