@@ -13,14 +13,12 @@
         <a class="nav-link" href="reparations.php">Réparations</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Montage tour</a>
+        <a class="nav-link" href="presentation.php">Qui sommes-nous ?</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Nos produits</a>
+        <a class="nav-link" href="contact.php">contact</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="presentation.php" tabindex="-1" aria-disabled="true">Qui sommes-nous ?</a>
-      </li>
+   
     </ul>
   </div>
 </nav>
