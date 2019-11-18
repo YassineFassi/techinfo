@@ -48,23 +48,32 @@ include "header.php";
   <button type="submit" class="btn btn-primary">Envoyer</button>
 
 </form>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.871584828187!2d4.844711715756815!3d45.753720322098545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea5d2cb7c00b%3A0x8933fa5f3ba6bfe7!2sSaxe%20-%20Gambetta!5e0!3m2!1sfr!2sfr!4v1574087902944!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
-
-    <div class="card" style="width: 11rem;">
-  <div class="card-body">
-    <h5 class="card-title">Ecrivez nous !</h5>
-    <a href="mailto:nullepart@mozilla.org" class="btn btn-primary">Ecrire un mail</a>
+<br>
+<div class="card-group col-4">
+  <div class="card">
+    <img src="../techinfo/mail.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <a href="mailto:nullepart@mozilla.org" class="btn btn-primary">Ecrivez-nous un mail</a>
+    </div>
   </div>
+  <div class="card">
+    <img src="../techinfo/phone.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <a href="tel:+33472896622" class="btn btn-primary">Appelez nous</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+    <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.871584828187!2d4.844711715756815!3d45.753720322098545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea5d2cb7c00b%3A0x8933fa5f3ba6bfe7!2sSaxe%20-%20Gambetta!5e0!3m2!1sfr!2sfr!4v1574087902944!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-  <div class="card-body">
-    <h5 class="card-title">Notre téléphone :</h5>
-    <a href="tel:+33472896622" class="btn btn-primary">Appeler</a>
+      <h5 class="card-title">Retrouvez notre boutique</h5>
+
+    </div>
   </div>
 </div>
-
-
+<br>
 
 
 <?php
