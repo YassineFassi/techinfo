@@ -10,7 +10,7 @@
     <title>TechInfo - Acceuil</title>
 </head>
 <header>
-<<<<<<< HEAD
+
 <php
 include "header.php";
 ?>
