@@ -12,22 +12,28 @@
     <title>Réparations</title>
 </head>
 <body>
+<header> 
 <h1>Devis pour Réparations</h1><hr>
 
-<div>Afin de vous fournir les devis les plus justes, soyez le plus précis possible. </div><br>
+<div>Afin de vous fournir les devis les plus justes, soyez le plus précis possible </div><br>
 
 <form action="" method="post">
         <div>
-          <label for="nom">Nom</label> <input type="text" id="nom" name="nom-client">
+          <label for="nom">Nom</label> <input type="text" id="nom" class="form-control" name="nom-client">
         </div>
         <div>
-          <label for="prenom">Prénom</label> <input type="text" id="prenom" name="prenom-client">
+          <label for="prenom">Prénom</label> <input type="text" id="prenom" class="form-control" name="prenom-client">
         </div>
         <div>
-          <label for="telephone">Numéro</label> <input type="text" id="telephone" name="telephone-client">
+          <label for="telephone">Numéro</label> <input type="text" id="telephone" class="form-control" name="telephone-client">
         </div>
+        <label for="type">Type de Panne</label> <select name ="listpanne" form="type" class="form-control" name="type-panne" >
+                <option value = "type 1">Téléphone Portable</option>
+                <option value = "type 2">Ordinateur Fixe</option>
+                <option value = "type 3">Ordinateur Portable</option>
+                <option value = "type 4">Autres</option>
         <div>
-          <label for="msg">Décrivez la panne</label> <textarea id="panne" name="panne-client"></textarea>
+          <label for="panne">Décrivez la panne</label> <textarea id="panne" class="form-control" name="panne-client"></textarea>
         </div>
         <div class="button">
           <button type="submit">Envoyez votre Devis</button>
