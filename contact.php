@@ -49,7 +49,7 @@ include "header.php";
 
 </form>
 <br>
-<div class="card-group col-4">
+<div class="card-group col-8">
   <div class="card">
     <img src="../techinfo/mail.png" class="card-img-top" alt="...">
     <div class="card-body">
