@@ -13,9 +13,12 @@
 </head>
 <body>
 <header>
-	
 
-		</header>
+<?php
+include "header.php";
+?>
+</header>
+
 <h1>Devis pour Réparations</h1><hr>
 
 <div>Afin de vous fournir les devis les plus justes, soyez le plus précis possible </div><br>
@@ -48,6 +51,9 @@
 
 
 <footer>
+<?php
+include "footer.php";
+?>
 
 </footer>
 </body>
