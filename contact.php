@@ -11,15 +11,15 @@
 <body>
 <form>
   <div class="form-row">
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-4">
       <label for="inputName">Nom</label>
       <input type="email" class="form-control" id="inputEmail4" placeholder="Nom">
     </div>
-    <div class="form-group col-md-6">
+    <div class="form-group col-md-4">
       <label for="inputLastname">Prénom</label>
       <input type="email" class="form-control" id="inputEmail4" placeholder="Prénom">
     </div>
-    <div class="form-group col-md-6">
+    <div class="form-group col-md-4">
       <label for="inputEmail4">Email</label>
       <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
     </div>
@@ -28,11 +28,11 @@
     <input type="text" class="form-control" id="inputAddress" placeholder="Votre adresse">
   </div>
    <div class="form-row">
-   <div class="form-group col-md-2">
+   <div class="form-group col-md-3">
       <label for="inputZip">Code Postal</label>
       <input type="text" class="form-control" id="inputZip">
     </div>
-    <div class="form-group col-md-6">
+    <div class="form-group col-md-4">
       <label for="inputCity">Ville</label>
       <input type="text" class="form-control" id="inputCity">
     </div>
@@ -41,6 +41,8 @@
   </div>
   </div>
   <button type="submit" class="btn btn-primary">Envoyer</button>
+
+<a href="index.php" class="btn btn-secondary btn-lg active">Retour à la page d'acceuil</a>
 </form>
 </body>
 </html>
