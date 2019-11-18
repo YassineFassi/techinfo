@@ -22,7 +22,7 @@ include "header.php";
 <a href="reparations.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Réparations</a>
 
 <footer>
-<php
+<?php
 include "footer.php" ;
 ?>
 
